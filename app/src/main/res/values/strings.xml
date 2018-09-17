@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PermissionManager</string>
+    <string name="permission_confirmation">You have denied storage access permission. Please visit settings and enable storage permission to enjoy full features of this app</string>
+
+</resources>
