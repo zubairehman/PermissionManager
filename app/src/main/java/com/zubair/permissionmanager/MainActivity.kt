@@ -1,8 +1,8 @@
 package com.zubair.permissionmanager
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
+import android.support.v7.app.AppCompatActivity
 import com.zubair.permissionmanager.enums.PermissionEnum
 import com.zubair.permissionmanager.interfaces.FullCallback
 
