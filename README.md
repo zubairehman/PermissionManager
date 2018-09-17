@@ -1,23 +1,5 @@
 # PermissionManager
-
-## How to use
-**Step 1.** Add the `JitPack` repository to your build file. Add it in your root `build.gradle` at the end of repositories:
-```gradle
-allprojects {
-    repositories {
-    ...
-    maven { url 'https://jitpack.io' }
-    }
-}
-```
-**Step 2.** Add the dependency
-```
-dependencies {
-    implementation 'com.github.zubairehman:PermissionManager:v1.0.0-alpha01'
-}
-```
-
-# PermissionManager
+`PermissionManager` is a simple library written in kotlin that lets you request runtime permission very easily. When you install an app from Google Play on a device running Android 6.0 and up, you control which capabilities or information that app can access—known as permissions. For example, an app might want permission to see your device contacts or location. `PermissionManager` makes it easier for you to request or check for runtime permissions.
 
 ## How to use
 To get a Git project into your build:
