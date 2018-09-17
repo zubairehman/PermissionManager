@@ -44,6 +44,11 @@ You can use three different callbacks depending upon your needs.
 - **SimpleCallback:** returns a boolean that says if all permission requests were permitted
 - **SmartCallback:** returns a boolean that says if all permission requests were permitted and a boolean that says if some permissions are denied forever
 
+### Open app settings
+If user selects "Never ask again" to a request for permission, you can redirect user to app settings with a method provided by `PermissionUtils` class
+```kotlin
+PermissionUtils.openApplicationSettings(MainActivity.this, R.class.getPackage().getName());
+```
 
 
 
