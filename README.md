@@ -1,4 +1,6 @@
 # PermissionManager
+[![](https://jitpack.io/v/zubairehman/PermissionManager.svg)](https://jitpack.io/#zubairehman/PermissionManager)
+
 `PermissionManager` is a simple library written in kotlin that lets you request runtime permission very easily. When you install an app from Google Play on a device running Android 6.0 and up, you control which capabilities or information that app can access—known as permissions. For example, an app might want permission to see your device contacts or location. `PermissionManager` makes it easier for you to request or check for runtime permissions.
 
 ## How to use
